@@ -27,7 +27,7 @@ Before installing certificate:
 
 Now you need to install `rootCA.crt` in trusted certificate and close all browser instances.
 
-![Alt text](installCertificate.jpg?raw=true "Before Install")
+![Alt text](installcrt.jpg "Before Install")
 
 
 Then just use `server.key` and `server.crt` in you'r server.
