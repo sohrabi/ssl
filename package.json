@@ -1,0 +1,15 @@
+{
+  "name": "ssl",
+  "version": "1.0.0",
+  "description": "A guide to create and test ssl for a domain in local",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ssl",
+    "openssl"
+  ],
+  "author": "Sohrabi",
+  "license": "ISC"
+}

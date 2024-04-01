@@ -1,0 +1,7 @@
+First install OpenSSL and run following commands:
+
+path %ProgramFiles%\OpenSSL-Win64\bin
+openssl req -x509 -sha256 -days 356 -nodes -newkey rsa:2048 -subj "/CN=MyRootCA/C=US/L=San Fransisco" -keyout rootCA.key -out rootCA.crt 
+openssl.exe genrsa -out server.key 2048
+openssl.exe req -new -key server.key -out server.csr -config csr.conf
+openssl.exe x509 -req -in server.csr -CA rootCA.crt -CAkey rootCA.key -CAcreateserial -out server.crt -days 7300 -sha256 -extfile crt.conf
