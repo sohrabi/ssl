@@ -27,7 +27,7 @@ Before installing certificate:
 
 Now you need to install `rootCA.crt` in trusted certificate and close all browser instances.
 
-![Alt text](installCertificate.jpg?raw=true "Root Ca installed on Trusted area")
+![Alt text](installCertificate.jpg?raw=true "Before Install")
 
 
 Then just use `server.key` and `server.crt` in you'r server.
@@ -36,4 +36,4 @@ You can see the example in `index.js` file here.
 
 After installing certificate:
 
-![Alt text](before.jpg?raw=true "Root Ca installed on Trusted area")
+![Alt text](before.jpg?raw=true "After Install")
